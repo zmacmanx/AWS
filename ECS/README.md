@@ -4,7 +4,7 @@ Components involved:
 - IAM Roles: for Container Instance, for Task Execution
 - VPC
 - Availability Zone
-- Subnet
+- Subnet: public for testing; private + NAT Gateway (instance) for real-world use
 - Security Groups
 - EC2 (ECS-optimized Amazon Linux image)
 - Application Load Balancer
